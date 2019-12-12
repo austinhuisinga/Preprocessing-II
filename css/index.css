@@ -168,6 +168,23 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 5%;
+  width: 90%;
+}
+nav .links-parent {
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+nav .links-parent a {
+  text-decoration: none;
+  color: black;
+  padding: 0 2%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
