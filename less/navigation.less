@@ -1,9 +1,11 @@
 // Navigation Styles here
 
 nav {
+  max-width: 800px;
+  width: 100%;
+  margin: 2% auto;
   display: flex;
   justify-content: space-between;
-  margin: 2% 5%;
   width: 90%;
 
   .links-parent {
@@ -15,10 +17,13 @@ nav {
     a {
       text-decoration: none;
       color: black;
-      padding: 0 2%;
+      padding: 0 5%;
       
       
     }
   }
 }
 
+.border {
+  border-bottom: 2px dashed @navigation-border;
+}
