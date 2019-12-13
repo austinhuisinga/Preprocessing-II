@@ -18,3 +18,17 @@
       padding: 4%;
     }
   }
+
+  .animation (@border-color, @color) {
+    animation-name: bg;
+    animation-duration: 750ms;
+    animation-fill-mode: forwards;
+    border: 1px solid @border-color;
+    border-radius: 10px;
+
+    @keyframes bg {
+      100% {
+        color: @color;
+      }
+    }
+  }

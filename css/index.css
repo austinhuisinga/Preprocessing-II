@@ -206,6 +206,16 @@ nav .links-parent a {
   text-decoration: none;
   color: black;
   padding: 0 5%;
+  animation-name: bg;
+  animation-duration: 750ms;
+  animation-fill-mode: forwards;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+@keyframes bg {
+  100% {
+    color: dodgerblue;
+  }
 }
 .border {
   border-bottom: 2px dashed #C0C0C0;
